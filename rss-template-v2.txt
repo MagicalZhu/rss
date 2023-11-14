@@ -1,6 +1,6 @@
 <opml version="2.0">
 <head>
-<title>嘎!RSS</title>
+<title>RSS</title>
 <dateCreated>Sat, 04 Dec 2021 04:18:35 GMT</dateCreated>
 <dateModified>{date_modified}</dateModified>
 <ownerName>zhaoolee</ownerName>

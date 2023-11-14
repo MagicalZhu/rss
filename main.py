@@ -86,12 +86,10 @@ def send_mail(email, title, contents):
                 user = load_dict["user"]
                 password = load_dict["password"]
                 host = load_dict["host"]
-                # print(load_dict)
         else:
             print("无法获取发件人信息")
     
     # 连接邮箱服务器
-    # yag = yagmail.SMTP(user=user, password=password, host=host)
     yag = yagmail.SMTP(user = user, password = password, host=host)
     # 发送邮件
     yag.send(email, title, contents)
@@ -107,8 +105,6 @@ def replace_readme():
     new_num = 0
     with open(os.path.join(os.getcwd(),"EditREADME.md"),'r') as load_f:
         edit_readme_md = load_f.read();
-
-
 
         new_edit_readme_md[0] = edit_readme_md
         before_info_list =  re.findall(r'\{\{latest_content\}\}.*\[订阅地址\]\(.*\)' ,edit_readme_md);
@@ -165,8 +161,6 @@ def replace_readme():
             except:
                 print("An exception occurred")
             
-
-                
             if(len(rss_info) > 0):
                 rss_info[0]["title"] = rss_info[0]["title"].replace("|", "\|")
                 rss_info[0]["title"] = rss_info[0]["title"].replace("[", "\[")
@@ -231,8 +225,6 @@ def create_opml():
     result = "";
     result_v1 = "";
 
-    # <outline text="CNET News.com" description="Tech news and business reports by CNET News.com. Focused on information technology, core topics include computers, hardware, software, networking, and Internet media." htmlUrl="http://news.com.com/" language="unknown" title="CNET News.com" type="rss" version="RSS2" xmlUrl="http://news.com.com/2547-1_3-0-5.xml"/>
-
     with open(os.path.join(os.getcwd(),"EditREADME.md"),'r') as load_f:
         edit_readme_md = load_f.read();
 
@@ -241,33 +233,18 @@ def create_opml():
 
         for opml_info_text in opml_info_text_list:
 
-
-            # print('==', opml_info_text)
-
             opml_info_text_format_data = re.match(r'\|(.*)\|(.*)\|(.*)\|(.*)\|.*\[订阅地址\]\((.*)\).*\|',opml_info_text)
 
-            # print("data==>>", opml_info_text_format_data)
-
-            # print("总信息", opml_info_text_format_data[0].strip())
-            # print("编号==>>", opml_info_text_format_data[1].strip())
-            # print("text==>>", opml_info_text_format_data[2].strip())
-            # print("description==>>", opml_info_text_format_data[3].strip())
-            # print("data004==>>", opml_info_text_format_data[4].strip())
             print('##',opml_info_text_format_data[2].strip())
             print(opml_info_text_format_data[3].strip())
             print(opml_info_text_format_data[5].strip())
             
-
             opml_info = {}
             opml_info["text"] = opml_info_text_format_data[2].strip()
             opml_info["description"] = opml_info_text_format_data[3].strip()
             opml_info["htmlUrl"] = opml_info_text_format_data[5].strip()
             opml_info["title"] = opml_info_text_format_data[2].strip()
             opml_info["xmlUrl"] = opml_info_text_format_data[5].strip()
-
-            # print('opml_info==>>', opml_info);
-            
-
 
             opml_info_text = '<outline  text="{text}" description="{description}" htmlUrl="{htmlUrl}" language="unknown" title="{title}" type="rss" version="RSS2" xmlUrl="{xmlUrl}"/>'
 
@@ -288,40 +265,31 @@ def create_opml():
             )
 
             result = result + opml_info_text + "\n"
-
             result_v1 = result_v1 + opml_info_text_v1 + "\n"
     
-    zhaoolee_github_garss_subscription_list = "";
+    rss_subscription_list = "";
     with open(os.path.join(os.getcwd(),"rss-template-v2.txt"),'r') as load_f:
-        zhaoolee_github_garss_subscription_list_template = load_f.read();
+        rss_subscription_list_template = load_f.read();
         GMT_FORMAT = '%a, %d %b %Y %H:%M:%S GMT'
         date_created = datetime.utcnow().strftime(GMT_FORMAT);
         date_modified = datetime.utcnow().strftime(GMT_FORMAT);
-        zhaoolee_github_garss_subscription_list = zhaoolee_github_garss_subscription_list_template.format(result=result, date_created=date_created, date_modified=date_modified);
-        # print(zhaoolee_github_garss_subscription_list);
+        rss_subscription_list = rss_subscription_list_template.format(result=result, date_created=date_created, date_modified=date_modified);
 
     # 将内容写入
-    with open(os.path.join(os.getcwd(),"zhaoolee_github_garss_subscription_list_v2.opml"),'w') as load_f:
-        load_f.write(zhaoolee_github_garss_subscription_list)
+    with open(os.path.join(os.getcwd(),"rss_subscription_list_v2.opml"),'w') as load_f:
+        load_f.write(rss_subscription_list)
 
-    zhaoolee_github_garss_subscription_list_v1 = ""
+    rss_subscription_list_v1 = ""
     with open(os.path.join(os.getcwd(),"rss-template-v1.txt"),'r') as load_f:
-        zhaoolee_github_garss_subscription_list_template = load_f.read();
-        zhaoolee_github_garss_subscription_list_v1 = zhaoolee_github_garss_subscription_list_template.format(result=result_v1);
-        # print(zhaoolee_github_garss_subscription_list_v1);
+        rss_subscription_list_template = load_f.read();
+        rss_subscription_list_v1 = rss_subscription_list_template.format(result=result_v1);
 
     # 将内容写入
-    with open(os.path.join(os.getcwd(),"zhaoolee_github_garss_subscription_list_v1.opml"),'w') as load_f:
-        load_f.write(zhaoolee_github_garss_subscription_list_v1)
-
-
-
-
-        
-    # print(result)
+    with open(os.path.join(os.getcwd(),"rss_subscription_list_v1.opml"),'w') as load_f:
+        load_f.write(rss_subscription_list_v1)
 
 def create_json():
-    result = {"garssInfo": []}
+    result = {"rssInfo": []}
     with open(os.path.join(os.getcwd(),"EditREADME.md"),'r') as load_f:
         edit_readme_md = load_f.read();
         ## 将信息填充到opml_info_list
@@ -332,8 +300,8 @@ def create_json():
             opml_info["description"] = opml_info_text_format_data[3].strip()
             opml_info["title"] = opml_info_text_format_data[2].strip()
             opml_info["xmlUrl"] = opml_info_text_format_data[5].strip()
-            result["garssInfo"].append(opml_info)
-    with open("./garssInfo.json","w", encoding="utf-8") as f:
+            result["rssInfo"].append(opml_info)
+    with open("./rssInfo.json","w", encoding="utf-8") as f:
         json.dump(result, f, ensure_ascii=False, indent=4)
 
 def main():
@@ -352,7 +320,6 @@ def main():
         send_mail(email_list, "嘎!RSS订阅", reResult)
     except Exception as e:
         print("==邮件设信息置错误===》》", e)
-
 
 if __name__ == "__main__":
     main()

@@ -1,4 +1,13 @@
-# Github Actions Rss (已收集{{rss_num}}个RSS源, 生成时间: {{ga_rss_datetime}})
+# Github Actions Rss (garss, 嘎RSS! 已收集{{rss_num}}个RSS源, 生成时间: {{ga_rss_datetime}})
+
+邮件内容区开始>
+<h2>新蒸熟{{new_num}}个小蛋糕🍰(文章) 生产时间 {{ga_rss_datetime}} 保质期24小时</h2>
+
+{{news}}
+
+<邮件内容区结束
+
+## 已收集RSS列表
 
 | 编号 | 名称 | 描述 | RSS  |  最新内容 |
 | --- | --- | --- | --- |  --- |
@@ -250,85 +259,3 @@
 | TG009 | 树莓派家用云服务器 | 树莓派家用云服务器交流  | {{latest_content}}  |  [订阅地址](https://rsshub.v2fy.com/telegram/channel/zhaoolee_pi) |
 | TG010 | 快乐星球 | 美女图片  | {{latest_content}}  |  [订阅地址](https://rsshub.v2fy.com/telegram/channel/botmzt) |
 | TG011 | Newlearnerの自留地 | 不定期推送 IT 相关资讯 | {{latest_content}}  |  [订阅地址](https://rsshub.v2fy.com/telegram/channel/NewlearnerChannel) |
-
-
-
-## 批量导入所有RSS订阅
-
-OPML V2.0:  [https://raw.githubusercontent.com/zhaoolee/garss/main/zhaoolee_github_garss_subscription_list_v2.opml](https://raw.githubusercontent.com/zhaoolee/garss/main/zhaoolee_github_garss_subscription_list_v2.opml) 
-
-OPML V2.0 备用CDN地址: [https://cdn.jsdelivr.net/gh/zhaoolee/garss/zhaoolee_github_garss_subscription_list_v2.opml](https://cdn.jsdelivr.net/gh/zhaoolee/garss/zhaoolee_github_garss_subscription_list_v2.opml)
-
-
-
-> 如果RSS软件版本较老无法识别以上订阅,请使用[V1.0版本的OPML订阅信息](https://raw.githubusercontent.com/zhaoolee/garss/main/zhaoolee_github_garss_subscription_list_v1.opml) [V1.0版本的OPML订阅信息备用CDN地址](https://cdn.jsdelivr.net/gh/zhaoolee/garss/zhaoolee_github_garss_subscription_list_v1.opml)
-
-
-## 如何定制自己的私人简报?
-
-从 github.com/zhaoolee/garss.git 仓库, fork一份程序到自己的仓库
-
-允许运行actions
-
-![允许运行actions](https://cdn.fangyuanxiaozhan.com/assets/1630216112533FANcC1QY.jpeg)
-
-在EditREADME.md中, 展示了zhaoolee已收集的RSS列表, 你可以参考每行的格式, 按行增删自己订阅的RSS
-
-然后按照下图设置发件邮箱相关内容即可!
-
-![](https://cdn.fangyuanxiaozhan.com/assets/1629970189283arACkBKe.png)
-
-在根目录, tasks.json中配置收件人, 收件人是一个对象数组, 数组中的邮箱, 都会收到邮件, 后续会扩展更多功能~
-
-```
-{
-    "tasks": [
-        {
-            "email": "zhaoolee@gmail.com"
-        },
-        {
-            "email": "zhaoolee@foxmail.com"
-        }
-    ]
-}
-```
-
-设置完成后 在README.md文件的底部加个空格，并push，即可触发更新！
-
-## 无法收到邮件怎么办
-
-可以按照以下代码，自测一下自己的HOST, PASSWORD，USER 是否能顺利发邮件
-
-```
-!pip install yagmail
-
-import yagmail
-
-# 连接邮箱服务器
-yag = yagmail.SMTP(user="填USER参数", password="填PASSWORD参数", host='填HOST参数')
-
-# 邮箱正文
-contents = ['今天是周末,我要学习, 学习使我快乐;', '<a href="https://www.python.org/">python官网的超链接</a>']
-
-# 发送邮件
-yag.send('填收件人邮箱', '主题:学习使我快乐', contents)
-```
-
-在线自测地址 [Colab： https://colab.research.google.com/](https://colab.research.google.com/)
-
-![在线自测](https://i.v2ex.co/zQWM0V6b.png)
-
-## 发送邮件的效果
-
-![手机端优化后的邮件效果](https://cdn.fangyuanxiaozhan.com/assets/163039979740967wCT8RQ.jpeg)
-
-![PC端优化后的邮件效果](https://cdn.fangyuanxiaozhan.com/assets/1630399693988c2tk8n7k.png)
-
-## 微信交流群
-
-[https://frp.v2fy.com/dynamic-picture/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4/qr.png](https://frp.v2fy.com/dynamic-picture/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4/qr.png)
-
-
-## 广告位招租
-
-![广告位招租](https://raw.githubusercontent.com/zhaoolee/ChineseBQB/master/README/zhaoolee-link.png)

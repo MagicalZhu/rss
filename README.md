@@ -1,4 +1,4 @@
-# Github Actions Rss (已收集231个RSS源, 生成时间: 2023-11-14 09:57:01)
+# Github Actions Rss (已收集231个RSS源, 生成时间: 2023-11-14 10:04:02)
 
 | 编号 | 名称 | 描述 | RSS  |  最新内容 |
 | --- | --- | --- | --- |  --- |
@@ -200,14 +200,14 @@
 | C008 | 蠎周刊 | Python各种Weekly中译版。 | [‣ 上周蠎快讯 45/2023 \| 2023-11-13](https://weekly.pychina.org/pyrecap/pyrw-2345.html)<br/>[‣ 上周蠎快讯 44/2023 \| 2023-11-13](https://weekly.pychina.org/pyrecap/pyrw-2344.html)  |  [订阅地址](https://weekly.pychina.org/feeds/all.atom.xml) |  
 | C009 | WordPress大学 | WordPress建站资源平台 | [‣ WordPress 2024 路线图：重点关注协作功能的 3 个主要版本 \| 2023-11-11](https://www.wpdaxue.com/wordpress-2024-roadmap-3-major-releases-with-a-focus-on-collaboration-features.html)<br/>[‣ WordPress 6.4.1 修复了 6.4 版本中的严重错误，请立即更新！ \| 2023-11-11](https://www.wpdaxue.com/wordpress-6-4-1.html)  |  [订阅地址](https://www.wpdaxue.com/feed) |  
 | C010 | Linux中国 | Linux中文开源社区 | [‣ 新闻 \| 新款 Fedora Slimbook 14 加入 Fedora Slimbook 阵营 \| 2023-11-13](https://linux.cn/article-16377-1.html?utm_source=rss&utm_medium=rss)<br/>[‣ 硬核观察 \| 硬核观察 #1184 等不及官方发布，创客制作了自己的树莓派 CM5 \| 2023-11-13](https://linux.cn/article-16376-1.html?utm_source=rss&utm_medium=rss)  |  [订阅地址](https://linux.cn/rss.xml) |  
-| C011 | V2EX | 创意工作者的社区 | [‣ \[问与答\] 双屏-双主机-用什么样的姿势接线？ 🌈 2023-11-14](https://www.v2ex.com/t/991697#reply0)<br/>[‣ \[宽带症候群\] 新办的手机宽带 手机因为反诈未二次实名被销号 宽带过了半年仍能继续使用 🌈 2023-11-14](https://www.v2ex.com/t/991696#reply1)  |  [订阅地址](https://www.v2ex.com/index.xml) |  
+| C011 | V2EX | 创意工作者的社区 | [‣ \[生活\] 如果再给你一次重来的机会，你会选择和现在这个人结婚还是单身 🌈 2023-11-14](https://www.v2ex.com/t/991704#reply0)<br/>[‣ \[问与答\] 有没有适合学生使用的椅子推荐? 🌈 2023-11-14](https://www.v2ex.com/t/991703#reply0)  |  [订阅地址](https://www.v2ex.com/index.xml) |  
 | C012 | 酷壳(左耳朵耗子) | 酷 壳RSS | [‣ 是微服务架构不香还是云不香？ \| 2023-05-08](https://coolshell.cn/articles/22422.html)<br/>[‣ 我看ChatGPT: 为啥谷歌掉了千亿美金 \| 2023-05-08](https://coolshell.cn/articles/22398.html)  |  [订阅地址](https://coolshell.cn/feed) |  
 | C013 | 豆瓣 | 豆瓣最受欢迎的影评 | [‣ 疯狂戴夫和他的TF GIRLS (评论: 惊奇队长2) \| 2023-11-09](https://movie.douban.com/review/15550115/)<br/>[‣ 深度出海，感受全球化的新变化 (评论: 深海) \| 2023-11-09](https://movie.douban.com/review/15554683/)  |  [订阅地址](https://www.douban.com/feed/review/movie) |  
 | C014 | 豆瓣 | 豆瓣最受欢迎的书评 | [‣ 一粒豆猫成了精 (评论: 多年爱书已成精) \| 2023-11-03](https://book.douban.com/review/15538395/)<br/>[‣ 谦逊的野心 (评论: 导读德勒兹《差异与重复》) \| 2023-11-03](https://book.douban.com/review/15553780/)  |  [订阅地址](https://www.douban.com/feed/review/book) |  
 | C015 | 豆瓣 | 豆瓣最受欢迎的乐评 | [‣ 生命是张悬而未决的网 (评论: 城市) \| 2023-11-13](https://music.douban.com/review/15557712/)<br/>[‣ 往新天與地探究 (评论: character / character) \| 2023-11-13](https://music.douban.com/review/15557704/)  |  [订阅地址](https://www.douban.com/feed/review/music) |  
 | C016 | 开源中国 | 开源中国社区推荐文章 | [暂无法通过爬虫获取信息, 点击进入源网站主页](https://www.oschina.net)  |  [订阅地址](https://www.oschina.net/blog/rss) |  
 | C017 | 博客园 | 博客园精华区 | [暂无法通过爬虫获取信息, 点击进入源网站主页](http://feed.cnblogs.com)  |  [订阅地址](http://feed.cnblogs.com/blog/picked/rss) |  
-| C018 | 博客园 | 博客园首页 | [‣ final关键字的作用 - 芊嵛 🌈 2023-11-14](https://www.cnblogs.com/qy-blog/p/17830968.html)<br/>[‣ 【scipy 基础】--图像处理 - wang_yb 🌈 2023-11-14](https://www.cnblogs.com/wang_yb/p/17830942.html)  |  [订阅地址](http://feed.cnblogs.com/blog/sitehome/rss) |  
+| C018 | 博客园 | 博客园首页 | [‣ 零基础快速上手STM32开发（手把手保姆级教程） - 良许Linux 🌈 2023-11-14](https://www.cnblogs.com/yychuyu/p/17830984.html)<br/>[‣ 【scipy 基础】--图像处理 - wang_yb 🌈 2023-11-14](https://www.cnblogs.com/wang_yb/p/17830942.html)  |  [订阅地址](http://feed.cnblogs.com/blog/sitehome/rss) |  
 | C019 | PTT(台湾论坛) | PTT电影专题 | [‣ \[好雷\] 殺手The Killer 🌈 2023-11-14](https://www.ptt.cc/bbs/movie/M.1699926541.A.349.html)<br/>[‣ \[新聞\] 越野跑者縱走中央山脈 紀錄片見證最速成 🌈 2023-11-14](https://www.ptt.cc/bbs/movie/M.1699925154.A.04D.html)  |  [订阅地址](https://www.ptt.cc/atom/movie.xml) |  
 | C020 | PTT(台湾论坛) | PTT正妹专题 | [‣ \[正妹\] 蜜大腿臭臉 🌈 2023-11-14](https://www.ptt.cc/bbs/Beauty/M.1699924620.A.95D.html)<br/>[‣ \[正妹\] 韓國小模 🌈 2023-11-14](https://www.ptt.cc/bbs/Beauty/M.1699917586.A.034.html)  |  [订阅地址](https://www.ptt.cc/atom/beauty.xml) |  
 | <div id="C021" style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/zhaoolee/garss/_media/favicon/C021.png" width="30px" style="width:30px;height: auto;"/><br><span>C021</span></div> | 吾爱破解 | 吾爱破解精品软件区 | [暂无法通过爬虫获取信息, 点击进入源网站主页](https://rsshub.v2fy.com)  |  [订阅地址](https://rsshub.v2fy.com/discuz/x/https%3a%2f%2fwww.52pojie.cn%2fforum-16-1.html) |  
@@ -250,3 +250,85 @@
 | TG009 | 树莓派家用云服务器 | 树莓派家用云服务器交流  | [暂无法通过爬虫获取信息, 点击进入源网站主页](https://rsshub.v2fy.com)  |  [订阅地址](https://rsshub.v2fy.com/telegram/channel/zhaoolee_pi) |
 | TG010 | 快乐星球 | 美女图片  | [暂无法通过爬虫获取信息, 点击进入源网站主页](https://rsshub.v2fy.com)  |  [订阅地址](https://rsshub.v2fy.com/telegram/channel/botmzt) |
 | TG011 | Newlearnerの自留地 | 不定期推送 IT 相关资讯 | [暂无法通过爬虫获取信息, 点击进入源网站主页](https://rsshub.v2fy.com)  |  [订阅地址](https://rsshub.v2fy.com/telegram/channel/NewlearnerChannel) |
+
+
+
+## 批量导入所有RSS订阅
+
+OPML V2.0:  [https://raw.githubusercontent.com/zhaoolee/garss/main/zhaoolee_github_garss_subscription_list_v2.opml](https://raw.githubusercontent.com/zhaoolee/garss/main/zhaoolee_github_garss_subscription_list_v2.opml) 
+
+OPML V2.0 备用CDN地址: [https://cdn.jsdelivr.net/gh/zhaoolee/garss/zhaoolee_github_garss_subscription_list_v2.opml](https://cdn.jsdelivr.net/gh/zhaoolee/garss/zhaoolee_github_garss_subscription_list_v2.opml)
+
+
+
+> 如果RSS软件版本较老无法识别以上订阅,请使用[V1.0版本的OPML订阅信息](https://raw.githubusercontent.com/zhaoolee/garss/main/zhaoolee_github_garss_subscription_list_v1.opml) [V1.0版本的OPML订阅信息备用CDN地址](https://cdn.jsdelivr.net/gh/zhaoolee/garss/zhaoolee_github_garss_subscription_list_v1.opml)
+
+
+## 如何定制自己的私人简报?
+
+从 github.com/zhaoolee/garss.git 仓库, fork一份程序到自己的仓库
+
+允许运行actions
+
+![允许运行actions](https://cdn.fangyuanxiaozhan.com/assets/1630216112533FANcC1QY.jpeg)
+
+在EditREADME.md中, 展示了zhaoolee已收集的RSS列表, 你可以参考每行的格式, 按行增删自己订阅的RSS
+
+然后按照下图设置发件邮箱相关内容即可!
+
+![](https://cdn.fangyuanxiaozhan.com/assets/1629970189283arACkBKe.png)
+
+在根目录, tasks.json中配置收件人, 收件人是一个对象数组, 数组中的邮箱, 都会收到邮件, 后续会扩展更多功能~
+
+```
+{
+    "tasks": [
+        {
+            "email": "zhaoolee@gmail.com"
+        },
+        {
+            "email": "zhaoolee@foxmail.com"
+        }
+    ]
+}
+```
+
+设置完成后 在README.md文件的底部加个空格，并push，即可触发更新！
+
+## 无法收到邮件怎么办
+
+可以按照以下代码，自测一下自己的HOST, PASSWORD，USER 是否能顺利发邮件
+
+```
+!pip install yagmail
+
+import yagmail
+
+# 连接邮箱服务器
+yag = yagmail.SMTP(user="填USER参数", password="填PASSWORD参数", host='填HOST参数')
+
+# 邮箱正文
+contents = ['今天是周末,我要学习, 学习使我快乐;', '<a href="https://www.python.org/">python官网的超链接</a>']
+
+# 发送邮件
+yag.send('填收件人邮箱', '主题:学习使我快乐', contents)
+```
+
+在线自测地址 [Colab： https://colab.research.google.com/](https://colab.research.google.com/)
+
+![在线自测](https://i.v2ex.co/zQWM0V6b.png)
+
+## 发送邮件的效果
+
+![手机端优化后的邮件效果](https://cdn.fangyuanxiaozhan.com/assets/163039979740967wCT8RQ.jpeg)
+
+![PC端优化后的邮件效果](https://cdn.fangyuanxiaozhan.com/assets/1630399693988c2tk8n7k.png)
+
+## 微信交流群
+
+[https://frp.v2fy.com/dynamic-picture/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4/qr.png](https://frp.v2fy.com/dynamic-picture/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4/qr.png)
+
+
+## 广告位招租
+
+![广告位招租](https://raw.githubusercontent.com/zhaoolee/ChineseBQB/master/README/zhaoolee-link.png)
